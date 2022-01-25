@@ -13,10 +13,10 @@ public class Client {
 	String VERSION;
 	/*constructor*/
 	public Client(String name, String version) {
-		this.NAME = name;
-		this.VERSION = version;
+		this.NAME = "Jupiter Continued";
+		this.VERSION = 1.0.0;
 		start();
-		Display.setTitle(name + " " + version);
+		Display.setTitle(name + " " + "v" + version);
 	}
 	/*starting method*/
 	public void start() {}
