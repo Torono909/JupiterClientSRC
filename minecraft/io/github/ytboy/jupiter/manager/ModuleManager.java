@@ -14,8 +14,7 @@ public class ModuleManager {
 		this.MODS.add(new Killaura());
 		this.MODS.add(new ElytraFly());
 		this.MODS.add(new ESP());
-
-
+		this.MODS.add(new Speed());
 	}
 	public void start() {
 	}
