@@ -1,5 +1,4 @@
 package io.github.ytboy.jupiter.modules;
-package io.github.ytboy.jupiter.modules;
 
 import org.lwjgl.input.Keyboard;
 
@@ -16,3 +15,4 @@ public class Speed extends Module {
 	public Speed() {
 		super("Speed", "Like Timer but only bypass with the right settings.", Keyboard.KEY_P, Category.MOVEMENT);
   }
+}
