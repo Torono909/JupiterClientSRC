@@ -14,5 +14,5 @@ import net.minecraft.network.play.client.CPacketAnimation;
 
 public class Speed extends Module {
 	public Speed() {
-		super("Speed", "Like Timer but only bypass with the right settings.", Keyboard.KEY_O, Category.MOVEMENT);
+		super("Speed", "Like Timer but only bypass with the right settings.", Keyboard.KEY_P, Category.MOVEMENT);
   }
